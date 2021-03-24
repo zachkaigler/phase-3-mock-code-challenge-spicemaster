@@ -2,8 +2,9 @@
   "spiceblends": [
     {
       "id": 1,
-      "title": "Pumpkin Spice",
-      "image": "./assets/spices/pumpkinspicelatte.jpg"
+      "title": "pikachu",
+      "image": "./assets/spices/pumpkinspicelatte.jpg",
+      "name": "Test"
     },
     {
       "id": 2,

@@ -2,9 +2,8 @@
   "spiceblends": [
     {
       "id": 1,
-      "title": "pikachu",
-      "image": "./assets/spices/pumpkinspicelatte.jpg",
-      "name": "Test"
+      "title": "Pumpkin Spice Latte",
+      "image": "./assets/spices/pumpkinspicelatte.jpg"
     },
     {
       "id": 2,
@@ -107,6 +106,11 @@
       "name": "Pepper",
       "spiceblendId": 3,
       "id": 17
+    },
+    {
+      "name": "Coffee",
+      "spiceblendId": "1",
+      "id": 18
     }
   ]
 }

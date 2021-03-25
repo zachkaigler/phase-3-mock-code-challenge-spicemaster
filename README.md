@@ -68,9 +68,9 @@ PATCH /spiceblends/1
 
 As a user, I can:
 
-- See the first spice blend (the spice blend with an ID of 1), including its **title**, **image**, and list of **ingredients**, when the page loads.
-- Update the **title** of the spice blend on the page when the `#update-form` is submitted, and **still see that change when reloading the page** (the new title should be persisted on the server).
-- Add a new **ingredient** to the spice blend when the `#ingredient-form` is submitted. The new ingredient should be displayed on the page (no persistence needed for now).
+<!-- - See the first spice blend (the spice blend with an ID of 1), including its **title**, **image**, and list of **ingredients**, when the page loads. -->
+<!-- - Update the **title** of the spice blend on the page when the `#update-form` is submitted, and **still see that change when reloading the page** (the new title should be persisted on the server). -->
+<!-- - Add a new **ingredient** to the spice blend when the `#ingredient-form` is submitted. The new ingredient should be displayed on the page (no persistence needed for now). -->
 
 ## Advanced Deliverables
 
@@ -150,8 +150,8 @@ GET /spiceblends/:id
 As a user, I can:
 
 - Persist new ingredients to the server when the `#ingredient-form` is submitted. Make sure to follow the format listed above to make a POST request to `/ingredients`. In the body of the request, the `spiceblendId` will need to be a **number** (not a **string**).
-- See all spice blend images in the `#spice-images` div when the page loads. Request the data from the server to get all the spice blends. Then, display the image for each of the spice blends using an `img` tag inside the `#spice-images` div.
-- Click on an image from the `#spice-images` div and see all the info about that spice blend displayed inside the `#spice-blend-detail` div. You will need to make another GET request with the spice blend's ID to get the information about the spice blend that was clicked.
+<!-- - See all spice blend images in the `#spice-images` div when the page loads. Request the data from the server to get all the spice blends. Then, display the image for each of the spice blends using an `img` tag inside the `#spice-images` div.
+- Click on an image from the `#spice-images` div and see all the info about that spice blend displayed inside the `#spice-blend-detail` div. You will need to make another GET request with the spice blend's ID to get the information about the spice blend that was clicked. -->
 
 ## Rubric
 
